@@ -1,21 +1,71 @@
-# Mini_project_EDA_IPL
-Conducted a detailed Exploratory Data Analysis (EDA) on the Indian Premier League (IPL) dataset to uncover performance insights of teams and players over multiple seasons.
-## 🎯 Key Questions Answered
+# 🏏 IPL Data Analysis - Exploratory Data Analysis (EDA)
 
-- How many matches were played in each season?
-- Total runs scored season-wise and per match
-- Toss winners and their decisions
-- Correlation between toss wins and match outcomes
-- Most successful teams and players
-- 200+ scores – teams scoring and conceding
-- Highest individual and team scores
-- Stadiums hosting the most matches
-- Powerplay (first 6 overs) vs death overs (last 4 overs) analysis
-- Most MOM awards, boundaries (4s, 6s), and more
+## 📌 Project Overview
 
-- ## 📊 Tools & Libraries Used
+This project performs an in-depth exploratory data analysis (EDA) of the **Indian Premier League (IPL)** using two datasets: `matches.csv` and `deliveries.csv`. The goal is to uncover trends, insights, and interesting patterns across different IPL seasons, teams, players, and matches.
 
-- **Python 3.x**
-- **Pandas** – Data manipulation
-- **Matplotlib** – Data visualization
-- **Seaborn** – Statistical plotting
+---
+
+## 📂 Datasets Used
+
+1. **Matches Dataset**
+   - Contains match-level data including season, teams, toss decisions, results, venues, and players of the match.
+
+2. **Deliveries Dataset**
+   - Ball-by-ball data for each delivery bowled in the IPL, including runs scored, wickets taken, and player statistics.
+
+---
+
+## 📊 Objectives & Analysis Questions
+
+### 📅 Season-Level Analysis
+- Total matches played per season
+- Total runs scored per season
+- Average runs per match across seasons
+
+### 🧠 Toss Analysis
+- Teams with the most toss wins
+- Decision trends after winning toss (bat/field)
+- Toss decision trends by season
+- Does winning the toss increase win probability?
+
+### 🏆 Team Performance
+- Tournament-winning teams
+- Team with most matches played
+- Team with most wins
+- Team with highest win percentage
+- Most 200+ scores made and conceded
+- Highest total in a match
+- Largest win (by run margin)
+- Lucky venues for specific teams
+
+### 🏏 Player Performance
+- Most balls faced
+- Top run-scorers
+- Most 4s and 6s
+- Best strike rate (min balls criteria)
+- Top wicket-takers
+- Most Player of the Match (MOM) awards
+
+### 🏟️ Venue & Umpire Stats
+- Stadiums with most matches
+- Most experienced umpires
+
+### 📈 Advanced Analysis
+- Runs scored in first 6 overs (Powerplay)
+- Runs scored in last 4 overs (Death overs)
+- Run rate comparisons across overs
+- Seasonal boundary analysis: 4s, 6s, and boundary run contributions
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.10+**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Jupyter Notebook** (for visualization and exploration)
+
+
